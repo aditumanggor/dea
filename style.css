@@ -70,7 +70,9 @@ li {
 
 .header-image {
   width: 250px;
-  border-radius: 25%;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .header-links {
@@ -105,7 +107,7 @@ li {
   text-align: center;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-width: 400px) {
   .header-title {
     font-size: smaller;
   }
@@ -205,7 +207,6 @@ section {
 
 .about {
   text-align: center;
-  text-transform: capitalize;
 }
 
 .resume {
